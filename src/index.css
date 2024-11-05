@@ -2,4 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-.react-codemirror2 > .CodeMirror:first-child { display: none; }
+/* .react-codemirror2 > .CodeMirror:first-child { display: none; } */
