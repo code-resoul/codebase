@@ -18,7 +18,7 @@ function Viewer({ srcDoc }) {
         </h1>
         <div onClick={handleClick} className=' text-white text-2xl cursor-pointer'><MdFullscreen /></div> 
       </div>
-      <div onClick={handleClick} className={` absolute z-20 top-0 right-0 m-3 p-1 text-2xl cursor-pointer hover:bg-black/25 rounded-lg ${fullView? '': ' hidden'} `}><RiFullscreenExitLine /></div>
+      <div onClick={handleClick} className={` fixed z-20 top-0 right-0 m-3 p-1 text-2xl cursor-pointer hover:bg-black/25 rounded-lg ${fullView? '': ' hidden'} `}><RiFullscreenExitLine /></div>
       <iframe
         className={` h-full w-full rounded-b-lg ${fullView? 'absolute bg-white left-0 top-0 z-10': ' bg-white/90'}`}
         srcDoc={srcDoc}
